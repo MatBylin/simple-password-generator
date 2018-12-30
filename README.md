@@ -1,5 +1,6 @@
 # Simple Password Generator
 Password generator in Windows Forms.
+
 ![simple-password-generator-screenshot](/PassGeneratorUI/img/screen.jpg)
 
 ## Build With
