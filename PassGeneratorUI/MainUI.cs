@@ -50,5 +50,18 @@ namespace PassGeneratorUI
             specialChars = SpecialCheck.Checked;
             numberChars = NumbersCheck.Checked;
         }
+
+        //Menu function
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void infoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Simple Password Generator v.1.00 \n" +
+                "matbylin@gmail.com\n" +
+                "https://github.com/MatBylin/", "Info");
+        }
     }
 }

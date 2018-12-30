@@ -18,7 +18,7 @@ namespace PassGeneratorUI
         {
             if (lenght < 6 || lenght > 100)
             {
-                MessageBox.Show("Lenght should be between 6 and 100 characters.");
+                MessageBox.Show("Lenght should be between 6 and 100 characters.", "Error");
                 return true;
             }
             else
