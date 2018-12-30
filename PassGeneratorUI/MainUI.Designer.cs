@@ -121,6 +121,7 @@
             this.ExitBtn.TabIndex = 17;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // CopyBtn
             // 
@@ -130,6 +131,7 @@
             this.CopyBtn.TabIndex = 16;
             this.CopyBtn.Text = "Copy";
             this.CopyBtn.UseVisualStyleBackColor = true;
+            this.CopyBtn.Click += new System.EventHandler(this.CopyBtn_Click);
             // 
             // GenerateBtn
             // 
@@ -139,6 +141,7 @@
             this.GenerateBtn.TabIndex = 15;
             this.GenerateBtn.Text = "Generate";
             this.GenerateBtn.UseVisualStyleBackColor = true;
+            this.GenerateBtn.Click += new System.EventHandler(this.GenerateBtn_Click);
             // 
             // PassLenght
             // 
@@ -149,6 +152,7 @@
             this.PassLenght.TabIndex = 14;
             this.PassLenght.Text = "10";
             this.PassLenght.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PassLenght.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PassLenght_KeyPress_1);
             // 
             // label1
             // 
